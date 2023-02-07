@@ -8,7 +8,8 @@ public class Main {
         if (addingMoney > 100) {
             int totalAmount = accountMoney + addingMoney + bonus;
             System.out.println("Клиент пополнил счёт на " + addingMoney + " рублей — бонус равен " + bonus + " рублям(ей), итоговая сумма на счету клиента — " + totalAmount + " рублей.");
-        } else {
+        } 
+        else {
             int totalAmount = accountMoney + addingMoney;
             System.out.println("Клиент пополнил счёт на " + addingMoney + " рублей, итоговая сумма на счету клиента — " + totalAmount + " рублей.");
 
