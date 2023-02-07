@@ -5,7 +5,7 @@ public class Main {
         int addingMoney = 150; // Сумма пополнения
         int bonus = addingMoney / 100; // Бонусные рубли
 
-        if (b > 100) {
+        if (addingMoney > 100) {
             int totalAmount = accountMoney + addingMoney + bonus;
             System.out.println("Клиент пополнил счёт на " + addingMoney + " рублей — бонус равен " + bonus + " рублям(ей), итоговая сумма на счету клиента — " + totalAmount + " рублей.");
         } else {
